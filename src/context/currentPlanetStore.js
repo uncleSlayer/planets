@@ -35,7 +35,7 @@ const usePlanetStore = create((set) => ({
                 planet = planetsNames.jup
                 break;
 
-            case 'Satun':
+            case 'Saturn':
 
                 planet = planetsNames.sat
                 break;
