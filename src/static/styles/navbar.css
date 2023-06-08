@@ -1,0 +1,64 @@
+.nav-container {
+    display: flex;
+    flex-direction: column;
+    /* border: 2px solid red; */
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    margin: 20px;
+    padding: 7%;
+    width: auto;
+    /* From https://css.glass */
+    background: rgba(3, 3, 3, 0.27);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(9.3px);
+    -webkit-backdrop-filter: blur(9.3px);
+}
+
+.nav-container>* {
+    color: white;
+    text-decoration: none;
+    margin: 20%;
+    /* border: 2px solid black; */
+    width: 100%;
+    transition: all;
+    transition-duration: 0.5s;
+    cursor: pointer;
+}
+
+.nav-container>*:hover {
+    transform: scale(110%);
+    transition: all;
+    transition-duration: 0.2s;
+}
+
+.planet-description-holder {
+    width: 45%;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: rgba(3, 3, 3, 0.27);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(9.3px);
+    -webkit-backdrop-filter: blur(9.3px);
+    margin:20px;
+    padding:7%;
+    text-align: center;
+}
+
+.planet-description-holder>h3 {
+    text-align: center;
+}
+
+.details-holder>p {
+    text-align: center;
+}
