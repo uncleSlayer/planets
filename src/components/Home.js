@@ -21,7 +21,7 @@ function Home() {
         <div onClick={handleClick}> Earth</div>
         <div onClick={handleClick}> Mars</div>
         <div onClick={handleClick}> Jupiter</div>
-        <div onClick={handleClick}> Satun</div>
+        <div onClick={handleClick}> Saturn</div>
         <div onClick={handleClick}> Uranus</div>
         <div onClick={handleClick}> Neptune</div>
       </div>
